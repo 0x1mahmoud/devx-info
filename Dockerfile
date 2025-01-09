@@ -1,4 +1,4 @@
-FROM alpine:3.17.0
+FROM alpine:3.21.1
 RUN apk add git>=2.38
 COPY devx /usr/bin/devx
 RUN mkdir /app
